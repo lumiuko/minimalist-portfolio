@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: inherit;
+}
+
+.nav-xl .active {
+  color: #5fb4a2;
+}
+
+.flex > picture {
+  flex-shrink: 0;
+}

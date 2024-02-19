@@ -20,7 +20,7 @@ export default function Homepage() {
             Hey, I’m Alex Spencer and I love building beautiful websites
           </h1>
           <button className="flex bg-dark-blue text-white min-w-[200px] hover:bg-cyan group transition-colors" onClick={goToAbout}>
-            <div className="self-stretch flex items-center px-4 bg-[#1d3445] group-hover:bg-[#56a292] transition-colors">
+            <span className="self-stretch flex items-center px-4 bg-[#1d3445] group-hover:bg-[#56a292] transition-colors">
               <img src="/icons/down-arrows.svg" alt="Arrows icon" aria-hidden="true" className="group-hover:hidden" />
               <img
                 src="/icons/down-arrows-light.svg"
@@ -28,8 +28,8 @@ export default function Homepage() {
                 aria-hidden="true"
                 className="hidden w-[16px] group-hover:block"
               />
-            </div>
-            <div className="flex-1 py-4 text-center text-xs leading-4 uppercase tracking-[2px]">About me</div>
+            </span>
+            <span className="flex-1 py-4 text-center text-xs leading-4 uppercase tracking-[2px]">About me</span>
           </button>
         </div>
       </header>
@@ -41,7 +41,7 @@ export default function Homepage() {
         <Picture type="homepage" name="image-homepage-profile" />
         <div className="border-y-[1px] border-t-line pt-8 pb-[3.25rem] md:pt-[3.125rem] md:pb-[2.875rem] xl:max-w-[350px]">
           <h2 className="font-heading font-bold text-h2 leading-h2 tracking-h2">About Me</h2>
-          <p className="mt-7 mb-6">
+          <p className="mt-7 mb-6 text-basic">
             I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern
             CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools
             are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding,

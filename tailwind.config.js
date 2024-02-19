@@ -7,6 +7,7 @@ export default {
         input: '#e6e6e7',
         line: '#dddcde',
         cyan: '#5FB4A2',
+        basic: '#5b5a63',
         'dark-blue': '#203A4C',
         'grayish-blue': '#33323D',
         'very-light-gray': '#FAFAFA',
